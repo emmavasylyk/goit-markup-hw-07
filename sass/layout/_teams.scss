@@ -1,0 +1,38 @@
+.workers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  background-color: $primary-background-color;
+}
+
+.worker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.worker__item {
+  margin-right: 30px;
+  background-color: $primary-white-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.worker-card {
+  padding: 30px 32px;
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: $title-text-color;
+  }
+  &__profession {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 16px;
+  }
+}
