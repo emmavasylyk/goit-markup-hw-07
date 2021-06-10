@@ -15,13 +15,12 @@
     top: 8px;
     right: 8px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     @include bordered(rgba(0, 0, 0, 0.1));
-    // border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
     transition: transform $anim-duration $anim-timing-function,
       fill $anim-duration $anim-timing-function;
