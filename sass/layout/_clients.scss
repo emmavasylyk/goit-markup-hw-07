@@ -1,6 +1,8 @@
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  &__list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .client {

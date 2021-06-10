@@ -1,6 +1,8 @@
 .feature {
-  padding-top: 94px;
-  padding-bottom: 47px;
+  &__container {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
 }
 
 .feature-list {

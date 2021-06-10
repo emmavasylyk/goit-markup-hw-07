@@ -1,6 +1,8 @@
 .workers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  &__list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   text-align: center;
   background-color: $primary-background-color;
 }
@@ -22,7 +24,9 @@
 }
 
 .worker-card {
-  padding: 30px 32px;
+  &__thumb {
+    padding: 30px 32px;
+  }
   &__title {
     margin-bottom: 10px;
     font-weight: 500;

@@ -9,10 +9,12 @@
 .main-nav {
   display: flex;
   align-items: center;
-  .site-nav {
-    display: flex;
+  &__site-nav {
     margin-left: 93px;
   }
+}
+.site-nav {
+  display: flex;
 }
 
 .site-nav__item {

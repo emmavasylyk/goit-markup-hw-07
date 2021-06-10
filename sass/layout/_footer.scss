@@ -1,13 +1,17 @@
 .footer {
+  &__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: $primary-footer-background;
   &-list {
     display: flex;
   }
   &-address {
-    margin-right: 70px;
+    &__block {
+      margin-right: 70px;
+    }
   }
   &-logo {
     display: block;

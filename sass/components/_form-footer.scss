@@ -1,7 +1,9 @@
 .form-footer {
-  margin-left: 93px;
+  &__block {
+    margin-left: 93px;
+    padding-top: 12px;
+  }
   width: 570px;
-  padding-top: 12px;
   &__title {
     display: block;
     margin-bottom: 20px;
